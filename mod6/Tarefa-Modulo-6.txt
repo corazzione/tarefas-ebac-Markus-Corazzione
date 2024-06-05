@@ -1,0 +1,56 @@
+algoritmo "rotina_acordando"
+
+var
+    despertador: inteiro
+    escovado_dentes: logico
+    roupa_vestida: logico
+    cafe_tomado: logico
+
+inicio
+    // Passo 1: Despertar
+    escrever("Despertador apitando...")
+    despertador <- 1 // 1 indica que o despertador tocou
+
+    // Passo 2: Levantar da cama
+    se (despertador = 1) entao
+        escrever("Levantando da cama")
+    fimse
+
+    // Passo 3: Ir ao banheiro
+    escrever("Indo ao banheiro")
+
+    // Passo 4: Escovar os dentes
+    escrever("Escovando os dentes")
+    escovado_dentes <- verdadeiro
+
+    // Passo 5: Vestir-se
+    escrever("Vestindo roupa")
+    roupa_vestida <- verdadeiro
+
+    // Passo 6: Ir para a cozinha
+    escrever("Indo para a cozinha")
+
+    // Passo 7: Preparar o café da manhã
+    escrever("Preparando o café da manhã")
+
+    // Passo 8: Pegar os ingredientes
+    escrever("Pegando pão, manteiga, café e leite")
+
+    // Passo 9: Fazer o café
+    escrever("Fazendo o café")
+
+    // Passo 10: Assar o pão
+    escrever("Assando o pão")
+
+    // Passo 11: Tomar o café da manhã
+    escrever("Tomando o café da manhã")
+    cafe_tomado <- verdadeiro
+
+    // Passo 12: Verificar se tudo foi feito corretamente
+    se (escovado_dentes = verdadeiro e roupa_vestida = verdadeiro e cafe_tomado = verdadeiro) entao
+        escrever("Pronto para o dia!")
+    senao
+        escrever("Algo deu errado, verificar passos.")
+    fimse
+
+fimalgoritmo
