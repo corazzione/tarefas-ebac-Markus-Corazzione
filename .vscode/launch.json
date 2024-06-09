@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NotasAlunos",
+            "request": "launch",
+            "mainClass": "NotasAlunos",
+            "projectName": "tarefas-ebac-Markus-Corazzione_900720eb"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
