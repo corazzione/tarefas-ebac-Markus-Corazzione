@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GerenciarPessoas",
+            "request": "launch",
+            "mainClass": "GerenciarPessoas",
+            "projectName": "tarefas-ebac-Markus-Corazzione_900720eb"
+        },
+        {
+            "type": "java",
             "name": "NotasAlunos",
             "request": "launch",
             "mainClass": "NotasAlunos",
